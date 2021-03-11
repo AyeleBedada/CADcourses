@@ -43,6 +43,7 @@ body {
 
 .container-2 {
   display: flex;
+  flex-wrap: wrap;
 
   /* align-items: flex-start;
                align-items: flex-end;
