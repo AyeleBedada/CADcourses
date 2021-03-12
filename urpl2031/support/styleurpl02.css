@@ -30,6 +30,16 @@ ul a {
   background-color: #00682b;
   padding: 0%;
 }
+
+ul .interfacelink a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 10pt;
+  background-color: #aa2601;
+  padding: 0%;
+}
+
 .containerHover {
   position: relative;
   width: 100%;
