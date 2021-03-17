@@ -506,7 +506,7 @@ you create (draw panel, annotate panel, and the like), you modify (modify panel)
       </div>
       </div>
 
-<h3  id="interfaceg" >G. The Layer properties manager </h3> 
+<h3  id="interfaceg" >G. The Layer properties manager in 'model space' and in 'layout space'</h3> 
 
       <ul> 
             <a href="#interfacea">link: Interface A</a>         
@@ -535,6 +535,36 @@ you create (draw panel, annotate panel, and the like), you modify (modify panel)
                         <div class="text01">Click on this image to further take a look at interface information of the layer properties manager</div>
       </div>
       </div>
+
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+
+
+
+
+<h3> Comparison of layer properties in model space and layout space:</h3> 
+
+The layer properties in the model space are as indicated:  12 properties: 1:Status, 2: name, 3: freeze, 4: on/off, 5: lock,  6: plot, 7: color, 
+8: linetype, 9: lineweight, 10: transparency,  11: new viewport freeze and 12: descriptions. 
+The layer properties in the layout space are as:  17 properties with additional 5 on top of what we have in model space: the additional 5 
+layer properties are: 1: Viewport freeze, 2: viewport color, 3: viewport line type, 4: viewport line weight and, 5: viewport transparency. 
+The above five layer properties are used to add or modify properties of a layer in a specific view port with out affecting other viewports 
+or the project in model space.     
+
+
+<div class="containerHover" style="background-color:white">
+      <img src="plotandlayer/layer2.png" alt="AutoCAD Interface basic" class="pics" width="100%"></a>
+       <div class="middle">
+                         <div class="text01">Model space and layout space comparison Left and right respectively</div>
+       </div>
+       </div>
+
+
+
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
 
 
@@ -575,6 +605,233 @@ You may mouse hover and click on the image and further study about the interface
                         <div class="text01">Click on the image and further study about the interface components on a different page.</div>
       </div>
       </div>
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+      <h3 id="interfacei"> I. Plotting (The plot window)</h3>
+
+      You can publish and plot your project from both the model space and the layout space. 
+      To make use of the plot service of the software one needs to understand the difference between the model space and the layout space, 
+      since the latter is dedicated for organizing your project for plotting while the former is dedicated to creating and modifying. 
+      The following image shows some of the basic differences between the model space and the layout space. 
+      The layout space comes with ‘PLOT’ tab that allows to draw viewports of different shapes and paper sizes. In the following slides you 
+      can find the comparison of the model space and layout space in picture and table. 
+      
+      <br><br>
+      
+      <h3>
+            Comparison of the model space and layout space in picture and table:
+      </h3>
+      
+      <div class="containerHover" style="background-color:white">
+           <img src="plotandlayer/plot1.png" alt="AutoCAD Interface basic" class="pics" width="100%"></a>
+            <div class="middle">
+                              <div class="text01">Model space and layout space comparison Left and right respectively</div>
+            </div>
+            </div>
+            <p>MS stands for Model Space and LS stands for Layout Space. Reference the table on the next slide in relation to the picture on the slide.</p>
+      <br><br>
+      
+      <!-- xxxxxxxxxxxxxxxxx -->
+      
+      <div style="background-color:#AA2601; text-align:center">
+            <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=0
+             style='width:495.9pt;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+             mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+             <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+              <td width=337 valign=top style='width:252.9pt;border:solid windowtext 1.0pt;
+              mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'><o:p>&nbsp;</o:p></p>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>Model Space</p>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'><o:p>&nbsp;</o:p></p>
+              </td>
+              <td width=324 valign=top style='width:243.0pt;border:solid windowtext 1.0pt;
+              border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+              solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'><o:p>&nbsp;</o:p></p>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>Layout Space</p>
+              </td>
+             </tr>
+             <tr style='mso-yfti-irow:1'>
+              <td width=337 valign=top style='width:252.9pt;border:solid windowtext 1.0pt;
+              border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+              padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>0ML (the model space, is theoretically infinite in the model space
+              and you can use the LIIT commanded if you want to use a limited area of the
+              space).</p>
+              </td>
+              <td width=324 valign=top style='width:243.0pt;border-top:none;border-left:
+              none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+              mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+              mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>0LS (The model space through the viewport you created, when you made
+              the view port active by double clicking inside it, most of the interface of
+              the layout are similar with the model space).</p>
+              </td>
+             </tr>
+             <tr style='mso-yfti-irow:2'>
+              <td width=337 valign=top style='width:252.9pt;border:solid windowtext 1.0pt;
+              border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+              padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>1ML and 2ML (The model and layout switch tabs, if in model space the
+              model tab is active).</p>
+              </td>
+              <td width=324 valign=top style='width:243.0pt;border-top:none;border-left:
+              none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+              mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+              mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>1LS and 2LS (The model and layout switch tab, if in layout space the
+              layout tab is active).</p>
+              </td>
+             </tr>
+             <tr style='mso-yfti-irow:3'>
+              <td width=337 valign=top style='width:252.9pt;border:solid windowtext 1.0pt;
+              border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+              padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>3ML (the grid panel, you can turn on and off the grid display in your
+              model space)</p>
+              </td>
+              <td width=324 valign=top style='width:243.0pt;border-top:none;border-left:
+              none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+              mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+              mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>This is active only if you double click in the viewport. </p>
+              </td>
+             </tr>
+             <tr style='mso-yfti-irow:4'>
+              <td width=337 valign=top style='width:252.9pt;border:solid windowtext 1.0pt;
+              border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+              padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>4ML (Here you can manage scale of the model space view, add
+              annotative scales, etc. from here).</p>
+              </td>
+              <td width=324 valign=top style='width:243.0pt;border-top:none;border-left:
+              none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+              mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+              mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>4LS (Here you can manage scale of the viewport window or if you made
+              the view port window active work on the annotative scale of objects in the
+              model space).</p>
+              </td>
+             </tr>
+             <tr style='mso-yfti-irow:5'>
+              <td width=337 valign=top style='width:252.9pt;border:solid windowtext 1.0pt;
+              border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+              padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>5ML (The view cube is available by default in the model space
+              interface)</p>
+              </td>
+              <td width=324 valign=top style='width:243.0pt;border-top:none;border-left:
+              none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+              mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+              mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>5LS (The view cube is available only when you activate the viewport
+              window)</p>
+              </td>
+             </tr>
+             <tr style='mso-yfti-irow:6'>
+              <td width=337 valign=top style='width:252.9pt;border:solid windowtext 1.0pt;
+              border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+              padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>6ML (This where you can control the different display options of the
+              model space).</p>
+              </td>
+              <td width=324 valign=top style='width:243.0pt;border-top:none;border-left:
+              none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+              mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+              mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>Is absent in the layout window.</p>
+              </td>
+             </tr>
+             <tr style='mso-yfti-irow:7'>
+              <td width=337 valign=top style='width:252.9pt;border:solid windowtext 1.0pt;
+              border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+              padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>This is absent in the model space. </p>
+              </td>
+              <td width=324 valign=top style='width:243.0pt;border-top:none;border-left:
+              none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+              mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+              mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>7LS (This tab allows you to open all settings specific to the layout
+              setting).</p>
+              </td>
+             </tr>
+             <tr style='mso-yfti-irow:8;mso-yfti-lastrow:yes'>
+              <td width=337 valign=top style='width:252.9pt;border:solid windowtext 1.0pt;
+              border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+              padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>This is absent in the model space. </p>
+              </td>
+              <td width=324 valign=top style='width:243.0pt;border-top:none;border-left:
+              none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+              mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+              mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+              <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+              normal'>8LS (This is the gray sketch space in the layout space users can use
+              it to draw their title blocks and other related drawings). </p>
+              </td>
+             </tr>
+            </table> 
+            </div>
+            <p>Under construction</p>
+      <!-- xxxxxxxxxxxxxxxxx -->
+      <br><br>
+      The extent at which you understand the difference between the model space and the layout space allows you to better understand 
+      the plot service of the software. You can access the page setup manager by right clicking on one of the tabs in the layout window or by 
+      typing in the command PAGESETUP in the layout window. As shown on the images left to right.  
+      <div class="containerHover" style="background-color:white">
+            <img src="plotandlayer/plot2.png" alt="AutoCAD Interface basic" class="pics" width="100%"></a>
+                  <div class="middle">
+                                    <div class="text01">Page setup manager</div>
+                  </div>
+                  </div>
+      
+      <br><br>
+      Or you can directly get to the plot window (1) by typing the PLOT command in the software's command line, or Ctrl + P (Keyboard shortcut) (2)  
+      (3) by clicking on the application button and selecting plot from the application menu (Drop down list), (4) by right clicking on one of the layout 
+      tabs and selecting plot. In all cases, you will be prompted with a popup window to select printing single pages or printing in batch (ordering more than one Prints). 
+      See the figure indicated. 
+      
+      <div class="containerHover" style="background-color:white">
+            <img src="plotandlayer/plot3.png" alt="AutoCAD Interface basic" class="pics" width="100%"></a>
+                  <div class="middle">
+                                    <div class="text01">Plot window</div>
+                  </div>
+                  </div>
+      
+      <br><br>
+      <p>
+            In this section of the course we have covered the study of AutoCAD interface in theory with illustrations, comparisons and discussions, however we 
+            have to still work on Demonstration and practical exercise (small and basic) covering most interface theory discussion. While with in this section the above   
+            two points should be covered.
+      
+      </p>
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
 
 <h2 id="chapter3.3">3.3.Built-in and custom templates and blocks </h2>   
 
